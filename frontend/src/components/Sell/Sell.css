@@ -1,0 +1,52 @@
+/* .price{
+    float: left;
+    
+}
+.amount,button{
+    margin-left: 5px;
+
+}
+
+.sell-wrapper{
+    display: flex;
+    justify-content: center;
+
+} */
+.forms{
+    background-color: rgb(255, 255, 255);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 25px 100px;
+    padding-right: 0px;
+    margin:10px auto !important;
+    margin-top: 0px !important;
+    /* margin: 10px auto; */
+    float: left;
+    /* width: 70%; */
+    
+}
+.form-wrapper{
+    border-top: solid 1px black !important;
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    width: 80px !important;
+    padding: 2px;
+    border-radius: 3px;
+}
+.sell-image{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+  
+}
+ button{
+    margin-top: 10px;
+    align-self: center;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: lawngreen;
+} 
+.sells-image{
+   margin-top: 15px;
+}

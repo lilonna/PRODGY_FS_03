@@ -1,0 +1,72 @@
+
+.top-nav{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px;
+    color: lime;
+    /* text-align: center; */
+    position: sticky;
+    margin: 0 !important;
+    display: flex;
+    justify-content:space-between ;
+}
+
+h1{
+    margin: 0 !important;
+    /* text-align: center !important; */
+    font-weight: bold !important;
+    -webkit-text-stroke: black 0.5px;
+    padding: 20px;
+}
+.hamburger,.search-wrapper{
+    margin: 20px 0px;
+    margin-left: 4%;
+    height: 30px;
+}
+.search{
+    width: 80%;
+    margin-left: 4%;
+}
+.menu-wrapper{
+    background-color: limegreen;
+    z-index: 900;
+    position: absolute;
+    width: 100vw;
+}
+.logo{
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+.search-results{
+    position: absolute;
+    background: linear-gradient( gray,rgb(255, 252, 252));
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 1);
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 800;
+    overflow-y: scroll;
+    max-height: 575px !important;
+}
+.search-results .card{
+    margin: 10px auto !important;
+
+}
+.search-bar {
+    background-color: rgb(16, 116, 33) !important; ;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-image: url('../../img/search.png'); /* Replace 'search-icon.png' with the path to your image */
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    /* background-position: right; */
+}
+.search-bar:focus{
+    background-color: white !important;
+}
+.search-bar::placeholder{
+    color: white;
+}

@@ -1,0 +1,8 @@
+.cat-wrapper{
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+.cat-wrapper a{ 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) !important;
+}
