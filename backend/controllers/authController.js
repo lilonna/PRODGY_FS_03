@@ -29,22 +29,9 @@ const registerUser = async (req, res) => {
     // Hash password
     const hashedPassword = await hashPassword(password);
     // Register admin user (can be done manually or with a separate admin registration logic)
-// const registerAdmin = async () => {
-//     try {
-//       const adminUser = await User.create({
-//         fname: 'Admin',
-//         lname: 'User',
-//         email: 'admin@example.com',
-//         password: await hashPassword('admin123'), // Hash the admin password
-//         role: 'admin', // Set the role as admin
-//       });
-//       console.log('Admin user created:', adminUser);
-//     } catch (error) {
-//       console.error('Error creating admin:', error);
-//     }
-//   };
+
   
-//   // Call registerAdmin to create an admin user in the database (only once, or in a setup script)
+
 //   registerAdmin();
   const initializeAdmin = async () => {
     const existingAdmin = await User.findOne({ email: 'admin@example.com' });
