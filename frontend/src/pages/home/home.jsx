@@ -75,11 +75,7 @@ function Home() {
       <footer className="bg-primary text-white py-4">
   <div className="container text-center">
     <p className="mb-0">
-      {/* <img
-        src="C:\Users\lidiy\Desktop\stitch.jpg"
-        alt="Logo"
-        style={{ width: '30px', height: '30px', marginRight: '10px' }}
-      /> */}
+     
       &copy; 2024 Lilo. All Rights Reserved.
     </p>
   </div>
